@@ -22,6 +22,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Arsenal17x](https://github.com/Arsenal17x) | 1 | 0 | 0 | 2 |
 | [@Harsh-26626](https://github.com/Harsh-26626) | 2 | 0 | 0 | 1 |
 | [@vanshika-ramchandani](https://github.com/vanshika-ramchandani) | 1 | 0 | 0 | 1 |
+| [@DivyaJain-DataAnalyst](https://github.com/DivyaJain-DataAnalyst) | 1 | 0 | 0 | 1 |
 | [@ud-ai](https://github.com/ud-ai) | 1 | 0 | 0 | 1 |
 | [@FrostByte-49](https://github.com/FrostByte-49) | 0 | 1 | 0 | 1 |
 | [@neelima-singh07](https://github.com/neelima-singh07) | 1 | 0 | 0 | 1 |
