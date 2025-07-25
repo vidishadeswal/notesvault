@@ -11,11 +11,11 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Copilot](https://github.com/Copilot) | 0 | 2 | 1 | 5 |
 | [@SagnikDey1503](https://github.com/SagnikDey1503) | 3 | 1 | 0 | 4 |
 | [@Radhika984](https://github.com/Radhika984) | 1 | 2 | 0 | 4 |
+| [@StephanosNikitis](https://github.com/StephanosNikitis) | 4 | 0 | 0 | 2 |
 | [@Srushtee1706](https://github.com/Srushtee1706) | 3 | 1 | 0 | 2 |
 | [@snehhhcodes](https://github.com/snehhhcodes) | 2 | 1 | 0 | 3 |
 | [@AshmitSherigar](https://github.com/AshmitSherigar) | 3 | 0 | 0 | 3 |
 | [@MeenakshiAM](https://github.com/MeenakshiAM) | 2 | 1 | 0 | 2 |
-| [@StephanosNikitis](https://github.com/StephanosNikitis) | 2 | 0 | 0 | 2 |
 | [@VidhanThakur09](https://github.com/VidhanThakur09) | 0 | 2 | 0 | 2 |
 | [@Sujal-Raj](https://github.com/Sujal-Raj) | 0 | 1 | 0 | 3 |
 | [@lobby11](https://github.com/lobby11) | 2 | 0 | 0 | 1 |
