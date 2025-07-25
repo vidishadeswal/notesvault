@@ -27,6 +27,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@neelima-singh07](https://github.com/neelima-singh07) | 1 | 0 | 0 | 1 |
 | [@HayatZarine](https://github.com/HayatZarine) | 1 | 0 | 0 | 1 |
 | [@AkshitBhandariCodes](https://github.com/AkshitBhandariCodes) | 1 | 0 | 0 | 1 |
+| [@Mehuli15](https://github.com/Mehuli15) | 1 | 0 | 0 | 1 |
 | [@shoaib2000857](https://github.com/shoaib2000857) | 1 | 0 | 0 | 1 |
 | [@Shalini22-ui](https://github.com/Shalini22-ui) | 1 | 0 | 0 | 1 |
 | [@unnati-078](https://github.com/unnati-078) | 1 | 0 | 0 | 1 |
