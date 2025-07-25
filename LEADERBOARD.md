@@ -12,11 +12,11 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Radhika984](https://github.com/Radhika984) | 1 | 2 | 0 | 4 |
 | [@Srushtee1706](https://github.com/Srushtee1706) | 3 | 1 | 0 | 2 |
 | [@snehhhcodes](https://github.com/snehhhcodes) | 2 | 1 | 0 | 3 |
+| [@Copilot](https://github.com/Copilot) | 0 | 1 | 1 | 4 |
 | [@AshmitSherigar](https://github.com/AshmitSherigar) | 3 | 0 | 0 | 3 |
-| [@Copilot](https://github.com/Copilot) | 0 | 1 | 1 | 3 |
+| [@MeenakshiAM](https://github.com/MeenakshiAM) | 2 | 1 | 0 | 2 |
 | [@StephanosNikitis](https://github.com/StephanosNikitis) | 2 | 0 | 0 | 2 |
 | [@VidhanThakur09](https://github.com/VidhanThakur09) | 0 | 2 | 0 | 2 |
-| [@MeenakshiAM](https://github.com/MeenakshiAM) | 2 | 0 | 0 | 2 |
 | [@Sujal-Raj](https://github.com/Sujal-Raj) | 0 | 1 | 0 | 3 |
 | [@lobby11](https://github.com/lobby11) | 2 | 0 | 0 | 1 |
 | [@Arsenal17x](https://github.com/Arsenal17x) | 1 | 0 | 0 | 2 |
@@ -36,6 +36,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@deepanshu-prajapati01](https://github.com/deepanshu-prajapati01) | 1 | 0 | 0 | 1 |
 | [@Bala327](https://github.com/Bala327) | 1 | 0 | 0 | 1 |
 | [@Mehak-Parveen](https://github.com/Mehak-Parveen) | 1 | 0 | 0 | 1 |
+| [@JeevithaR3](https://github.com/JeevithaR3) | 0 | 1 | 0 | 1 |
 | [@DhawalShankar](https://github.com/DhawalShankar) | 0 | 1 | 0 | 1 |
 | [@RAJVEER42](https://github.com/RAJVEER42) | 0 | 1 | 0 | 1 |
 | [@SHUBBHAM-KUMARR](https://github.com/SHUBBHAM-KUMARR) | 1 | 0 | 0 | 1 |
