@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="aurora.css" />
-    <link rel="stylesheet" href="text-animations.css" />
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
     <!-- GSAP Animation Library -->
@@ -84,7 +83,7 @@
       <div class="main-left">
         <p class="main-text welcome animate-text">Welcome Back</p>
         <h1 class="main-heading animate-text">
-          Your Go-To Companion for </br> optimised learning
+          Your Go-To Companion</br> for optimised learning
         </h1>
         <p class="main-text animate-text">
           Keep your study notes on python organised, easy to find,</br> and
@@ -98,17 +97,17 @@
       
 
       <div class="main-right">
-        <div class="main-right-box">
-          <div class="main-right-upper-box">
-            <div class="right-text-div">
-              <p class="right-text">Notes Organised by</p>
-              <p class="right-text" >Subject</p>
-            </div>
-          </div>
+    <div class="main-right-box">
+      <div class="main-right-upper-box">
+        <div class="right-text-div">
+          <p class="right-text">Notes Organised by</p>
+          <p class="right-text" id="typeWriterText">Subject</p>
         </div>
       </div>
+    </div>
+  </div>
 
-    <style>
+  <!-- <style>
     .right-text {
       font-size: 1.8rem;
       font-weight: bold;
@@ -116,7 +115,7 @@
     }
   </style>
 
-  <script>
+<script>
   const texts = ["Subject", "Topics", "Chapters"];
   let index = 0;
   const textElement = document.getElementById("typeWriterText");
@@ -131,11 +130,11 @@
   }
 
   setInterval(changeText, 2000); // every 2 seconds
-  </script>
+  </script> -->
 </div>
 
       <section class="About animate-section">
-        <p class="About-left-heading" >About NotesVault</p>
+        <p class="About-left-heading">About NotesVault</p>
         <p class="About-left-text">A web app to store, browse, and manage notes and PYQs semester-wise.</p>
         <p class="About-left-link" onclick='window.open("https://github.com/opensource-society/notesvault", "_blank", "noopener,noreferrer")'>Learn More →</p>
       </section>
@@ -275,7 +274,5 @@
       // Register GSAP ScrollTrigger
       gsap.registerPlugin(ScrollTrigger, TextPlugin);
     </script>
-    <script src="combined-animations.js"></script>
-    <script src="rotating-text.js"></script>
   </body>
 </html>
