@@ -17,42 +17,26 @@
     </script>
   </head>
   <body>
-    <header>
-      <div id="header">
-        <div class="hamburger-wrapper">
-          <button class="hamburger-menu">
-            <span class="hamburger-line"></span>
-            <span class="hamburger-line"></span>
-            <span class="hamburger-line"></span>
-          </button>
+    <header class="navbar">
+  <div class="navbar-left">
+    <div class="logo">NotesVault</div>
+  </div>
 
-          <div class="hover-sidebar">
-            <ul>
-              <li><a href="#">Dashboard</a></li>
-              <li><a href="/pages/about.html">About</a></li>
-              <li><a href="/pages/overview.html">Overview</a></li>
-              <li><a href="/pages/features.html">Features</a></li>
-              <li><a href="#">Resources</a></li>
-            </ul>
-          </div>
-        </div>
+  <div class="navbar-center" id="header-navigation">
+    <a href="/pages/overview.html">Overview</a>
+    <a href="/pages/studentAccount.html">Student Account</a>
+    <a href="/pages/about.html">About</a>
+    <a href="/pages/features.html">Features</a>
+  </div>
 
-        <div id="header-title-box">
-          <p id="header-title">NotesVault</p>
-        </div>
+  <div class="navbar-right">
+    <a href="pages/signup.html" class="signup-btn">Sign Up</a>
+    
+    <div id="hamburger" class="hamburger-icon">☰</div>
+  </div>
+</header>
 
-        <div id="header-navigation" class="nav-menu">
-          <a href="./pages/overview.html">Overview</a>
-          <a href="./pages/studentAccount.html">Student Account</a>
-          <a href="./pages/about.html">About</a>
-          <a href="/">Features</a>
-        </div>
 
-        <div id="header-signup-box">
-          <a href="pages/signup.html"><p>Sign Up</p></a>
-        </div>
-      </div>
-    </header>
    <div class="Search-box  bg-black h-[100px]">
   <div class="main-right-search " >
     <form id="search-form" class="main-right-search-form" method="get" action="search.html">
@@ -76,44 +60,41 @@
 
 
     <main id="main">
-      <div class="main-left">
-        <p class="main-text welcome">Welcome Back</p>
-        <h1 class="main-heading">
-          Your Go-To Companion for<br />Organized Learning.
-        </h1>
-        <p class="main-text">
-          Keep your study notes and PYQs organized, easy to find,<br />and
-          always just a click away with NotesVault.
-        </p>
-        <div class="main-left-links">
-          <a style="color: black ; text-decoration: none; " class="links-text try-box"  href="./search.html">Browse Notes</a>
-          <p class="links-text try-box">Upload Notes</p>
+  <div class="main-left">
+    <p class="main-text welcome">Welcome Back</p>
+    <h1 class="main-heading">
+      Your Go-To Companion for<br />Organized Learning.
+    </h1>
+    <p class="main-text">
+      Keep your study notes and PYQs organized, easy to find,<br />and
+      always just a click away with NotesVault.
+    </p>
+    <div class="main-left-links">
+      <a href="search.html" class="links-text try-box" style="color: black; text-decoration: none;">Browse Notes</a>
+      <a href="upload.html" class="links-text try-box" style="color: black; text-decoration: none;">Upload Notes</a>
+    </div>
+  </div>
+
+  <div class="main-right">
+    <div class="main-right-box">
+      <div class="main-right-upper-box">
+        <div class="right-text-div">
+          <p class="right-text">Notes Organised by</p>
+          <p class="right-text" id="typeWriterText">Subject</p>
         </div>
       </div>
-      
+    </div>
+  </div>
 
-      <div class="main-right">
-        <div class="main-right-box">
-          <div class="main-right-upper-box">
-            <div class="right-text-div">
-              <p class="right-text">Notes Organised by</p>
-              <p class="right-text" id="typeWriterText">Subject</p>
-            </div>
-          </div>
+  <section class="About">
+    <p class="About-left-heading">About NotesVault</p>
+    <p class="About-left-text">A web app to store, browse, and manage notes and PYQs semester-wise.</p>
+    <p class="About-left-link" onclick='window.open("https://github.com/opensource-society/notesvault", "_blank", "noopener,noreferrer")'>Learn More →</p>
+  </section>
+</main>
 
-          
-        </div>
-      </div>
-
-      <section class="About">
-        <p class="About-left-heading">About NotesVault</p>
-        <p class="About-left-text">A web app to store, browse, and manage notes and PYQs semester-wise.</p>
-        <p class="About-left-link" onclick='window.open("https://github.com/opensource-society/notesvault", "_blank", "noopener,noreferrer")'>Learn More →</p>
-      </section>
-    </main>
-
-    <section class="features-section">
-  <a href="pages/upload.html" class="feature-card">
+<section class="features-section">
+  <a href="upload.html" class="feature-card">
     <!-- Upload Icon -->
     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1d1d1d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M12 3v12" />
@@ -123,6 +104,10 @@
     <p class="feature-title">Easy Upload</p>
     <p class="feature-desc">Add your notes quickly and effortlessly</p>
   </a>
+</section>
+
+
+
 
   <div class="feature-card">
     <!-- Folder Icon -->

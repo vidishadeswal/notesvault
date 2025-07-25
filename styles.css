@@ -2,7 +2,7 @@
 
 
 
-  .theme-toggle {
+  /* .theme-toggle {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +45,7 @@
   }
 
   /* Dark mode theme toggle button styles */
-  [data-theme="dark"] .theme-toggle {
+  /* [data-theme="dark"] .theme-toggle {
     background: rgba(223, 248, 248, 0.1);
     border-color: rgba(223, 248, 248, 0.2);
   }
@@ -68,7 +68,7 @@
   [data-theme="dark"] .theme-toggle .moon-icon {
     opacity: 1;
     visibility: visible;
-  }
+  } */ 
 
 
 /* Navigation Menu Styles with updated order for theme toggle */
@@ -202,7 +202,7 @@
   }
 
 
-  .theme-toggle {
+  /* .theme-toggle {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -216,9 +216,9 @@
     margin-right: 15px;
     position: relative;
     overflow: hidden;
-  }
+  } */
 
-  .theme-toggle:hover {
+  /* .theme-toggle:hover {
     background: rgba(22, 61, 59, 0.2);
     border-color: rgba(22, 61, 59, 0.3);
     transform: scale(1.05);
@@ -245,7 +245,7 @@
   }
 
   /* Dark mode theme toggle button styles */
-  [data-theme="dark"] .theme-toggle {
+  /* [data-theme="dark"] .theme-toggle {
     background: rgba(223, 248, 248, 0.1);
     border-color: rgba(223, 248, 248, 0.2);
   }
@@ -268,7 +268,7 @@
   [data-theme="dark"] .theme-toggle .moon-icon {
     opacity: 1;
     visibility: visible;
-  }
+  }  */
 
   /* Integrated code from paste-2.txt (lines 90 to 154) */
 
@@ -502,14 +502,14 @@
     position: absolute;
   }
   /* Light Mode */
-  .nav-menu a {
+  /* .nav-menu a {
      color: #000000;
-  }
+  } */
 
   /* Dark Mode */
-  [data-theme="dark"] .nav-menu a {
+  /* [data-theme="dark"] .nav-menu a {
     color: #ffffff;
-  }
+  } */
 
 
   .nav-menu a span {
@@ -736,6 +736,7 @@
 
     align-items: center;
   }
+}
 
   .main-right-search .main-right-search-form-input {
     display: inline-flex;
@@ -807,10 +808,10 @@
   color: #2E2E2E;
 }
 
-[data-theme="dark"] .search-parameters-select option {
+/* [data-theme="dark"] .search-parameters-select option {
   background-color: rgba(60, 80, 60, 0.9) !important;
   color: #e0e0e0 !important;
-}
+} */
 
 
   .About {
@@ -1217,7 +1218,7 @@
   }
 
   /* Dark Mode Styles */
-  [data-theme="dark"] {
+  /* [data-theme="dark"] {
     color-scheme: dark;
   }
 
@@ -1431,7 +1432,7 @@
 
   [data-theme="dark"] .footer-bottom-links a:hover {
     color: #dff8f8;
-  }
+  } */
 
   /* Responsive breakpoints integrated from paste-2.txt */
 
@@ -1447,7 +1448,7 @@
     }
   }
 
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
     .theme-toggle {
       width: 35px;
       height: 35px;
@@ -1487,7 +1488,7 @@
       width: 14px;
       height: 14px;
     }
-  }
+  } */
 
 
   /* Modern Footer Styles */
@@ -2142,7 +2143,7 @@ main{
   stroke: #1d1d1d !important;
 }
 
-[data-theme="dark"] .feature-card {
+/* [data-theme="dark"] .feature-card {
   background: #223024;
   color: #f7f7f7;
   box-shadow: 0 2px 12px rgba(0,0,0,0.18);
@@ -2156,7 +2157,7 @@ main{
 }
 [data-theme="dark"] .feature-card:hover {
   box-shadow: 0 6px 24px rgba(247,184,110,0.18);
-}
+} */
 
 .feature-card:hover {
   box-shadow: 0 6px 24px rgba(76,175,80,0.13);
@@ -2416,10 +2417,155 @@ main{
   font-size: 1rem;
   cursor: pointer;
   z-index: 10;
-  transition: background 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 #scrollToTopBtn:hover {
   background: #14524c;
 }
 
+/* Hamburger menu hidden by default */
+/* .hamburger-icon {
+  
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+  padding-right: 20px;
+} */
+
+
+
+
+
+.navbar-center {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex: 1;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  color: black;
+}
+
+.signup-btn {
+  background-color: #2d89ef;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Add above the media query */
+.hamburger-icon {
+  display: none;
+}
+
+/* Base layout for desktop */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: white;
+  width: 100%;
+  position: relative;
+}
+
+.navbar-left .logo {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  font-size: 1.5rem;
+}
+
+
+.navbar-center a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-center a:hover {
+  color: #007bff;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Sign Up Button */
+.signup-btn {
+  padding: 8px 16px;
+  background-color: #2e90fa;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hamburger hidden on desktop */
+.hamburger-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+  }
+
+  .navbar-left .logo {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  .hamburger-icon {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black; /* or white depending on background */
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    z-index: 1001;
+  }
+
+  .navbar-center,
+  .signup-btn {
+    display: none;
+  }
+
+  .navbar-center.show,
+  .signup-btn.show {
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 60px; /* Push down below header */
+  }
+
+  .navbar-center.show a {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+}

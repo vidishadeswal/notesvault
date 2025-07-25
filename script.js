@@ -119,6 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
       typewriterElement.textContent = currentWord.substring(0, charIndex + 1);
       charIndex++;
     }
+  }
 
 
     let typeSpeed = isDeleting ? 75 : 150; // Slower, more natural speeds
@@ -168,11 +169,6 @@ subjectNames = semesterData.subjects
 
   // Start the typewriter
   typeWriterEffect();
-
-
-  // --- Mobile Menu Toggle Functionality ---
-  const nav = document.getElementById('header-navigation');
-  const hamburger = document.getElementById('hamburgerMenu');
 
   if (hamburger) {
     hamburger.addEventListener('click', () => {
@@ -488,4 +484,20 @@ function runQuerySearch() {
     }
   }
 }
+
+hamburger.addEventListener("click", () => {
+  navMenu.classList.toggle("show");
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.querySelector(".navbar-center");
+  const signUp = document.querySelector(".signup-btn");
+
+  hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+    signUp.classList.toggle("show");
+  });
+});
 
