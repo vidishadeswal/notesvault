@@ -389,15 +389,14 @@ function displayNotes(notes) {
     });
   });
 
-  document.addEventListener('DOMContentLoaded', function() {
-    var easyUploadCard = document.querySelector('.easy-upload-card');
-    if (easyUploadCard) {
-      easyUploadCard.style.cursor = 'pointer';
-      easyUploadCard.addEventListener('click', function() {
-        window.location.href = '/upload.html';
-      });
-    }
-  });
+  // Remove the DOMContentLoaded wrapper - the DOM is already loaded
+  var easyUploadCard = document.querySelector('.easy-upload-card');
+  if (easyUploadCard) {
+    easyUploadCard.style.cursor = 'pointer';
+    easyUploadCard.addEventListener('click', function() {
+      window.location.href = '/upload.html';
+    });
+  }
 
 
   document.addEventListener("DOMContentLoaded", function () {
