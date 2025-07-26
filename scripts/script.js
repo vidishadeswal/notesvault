@@ -235,12 +235,7 @@ fetch("data/notes.json")
 function updateFilterSubjects(branch) {
   subjectFilter.innerHTML = '<option value="">All Subjects</option>';
   const subjects = subjectMap[branch] || [].concat(...Object.values(subjectMap));
-  // [...new Set(subjects)].forEach(sub => {
-  //   const opt = document.createElement("option");
-  //   opt.value = sub;
-  //   opt.textContent = sub;
-  //   subjectFilter.appendChild(opt);
-  // });
+  
   [...new Set(subjects)]
   .sort((a, b) => a.localeCompare(b)) // Sort alphabetically
   .forEach(sub => {
@@ -248,7 +243,7 @@ function updateFilterSubjects(branch) {
     opt.value = sub;
     opt.textContent = sub;
     subjectFilter.appendChild(opt);
-});
+  });
 
 }
 
@@ -378,83 +373,83 @@ function displayNotes(notes) {
       );
       displayNotes(filtered);
     });
-
-
-
-[branchFilter, semesterFilter, subjectFilter].forEach(filter => {
-  filter.addEventListener("change", () => {
-    const branchVal = branchFilter.value;
-    if (filter === branchFilter) updateFilterSubjects(branchVal);
-    const filtered = notesData.filter(note =>
-      (branchVal === "" || note.branch === branchVal) &&
-      (semesterFilter.value === "" || note.semester === semesterFilter.value) &&
-      (subjectFilter.value === "" || note.subject === subjectFilter.value)
-    );
-    displayNotes(filtered);
-
   });
 
-document.addEventListener('DOMContentLoaded', function() {
-  var easyUploadCard = document.querySelector('.easy-upload-card');
-  if (easyUploadCard) {
-    easyUploadCard.style.cursor = 'pointer';
-    easyUploadCard.addEventListener('click', function() {
-      window.location.href = '/upload.html';
+
+ [branchFilter, semesterFilter, subjectFilter].forEach(filter => {
+  filter.addEventListener("change", () => {
+    const branchVal = branchFilter.value;
+      if (filter === branchFilter) updateFilterSubjects(branchVal);
+      const filtered = notesData.filter(note =>
+        (branchVal === "" || note.branch === branchVal) &&
+        (semesterFilter.value === "" || note.semester === semesterFilter.value) &&
+        (subjectFilter.value === "" || note.subject === subjectFilter.value)
+      );
+      displayNotes(filtered);
     });
-  }
-});
+  });
 
-});
+  document.addEventListener('DOMContentLoaded', function() {
+    var easyUploadCard = document.querySelector('.easy-upload-card');
+    if (easyUploadCard) {
+      easyUploadCard.style.cursor = 'pointer';
+      easyUploadCard.addEventListener('click', function() {
+        window.location.href = '/upload.html';
+      });
+    }
+  });
 
-document.addEventListener("DOMContentLoaded", function () {
-  const urlParams = new URLSearchParams(window.location.search);
-  const query = urlParams.get("query")?.trim().toLowerCase();
 
-  if (query) {
-    const notes = document.querySelectorAll(".note-card");
-    let matchFound = false;
+  document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get("query")?.trim().toLowerCase();
 
-    notes.forEach((note) => {
-      const content = note.textContent.toLowerCase();
-      const show = content.includes(query);
-      note.style.display = show ? "block" : "none";
-      if (show) matchFound = true;
-    });
+    if (query) {
+      const notes = document.querySelectorAll(".note-card");
+      let matchFound = false;
 
-    if (!matchFound) {
-      const msg = document.createElement("p");
-      msg.textContent = `No notes found for "${query}"`;
-      msg.style.color = "red";
-      msg.style.fontWeight = "bold";
-      msg.style.marginTop = "20px";
-      document.getElementById("notes-container").appendChild(msg);
+      notes.forEach((note) => {
+        const content = note.textContent.toLowerCase();
+        const show = content.includes(query);
+        note.style.display = show ? "block" : "none";
+        if (show) matchFound = true;
+      });
+
+      if (!matchFound) {
+        const msg = document.createElement("p");
+        msg.textContent = `No notes found for "${query}"`;
+        msg.style.color = "red";
+        msg.style.fontWeight = "bold";
+        msg.style.marginTop = "20px";
+        document.getElementById("notes-container").appendChild(msg);
+      }
+    }
+ });
+
+  function runQuerySearch() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get("query")?.trim().toLowerCase();
+
+    if (query) {
+      const notes = document.querySelectorAll(".note-card");
+      let matchFound = false;
+
+      notes.forEach((note) => {
+        const content = note.textContent.toLowerCase();
+        const show = content.includes(query);
+        note.style.display = show ? "block" : "none";
+        if (show) matchFound = true;
+      });
+
+      if (!matchFound) {
+        const msg = document.createElement("p");
+        msg.textContent = `No notes found for "${query}"`;
+        msg.style.color = "red";
+        msg.style.fontWeight = "bold";
+        msg.style.marginTop = "20px";
+        document.getElementById("notes-container").appendChild(msg);
+      }
     }
   }
 });
-
-function runQuerySearch() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const query = urlParams.get("query")?.trim().toLowerCase();
-
-  if (query) {
-    const notes = document.querySelectorAll(".note-card");
-    let matchFound = false;
-
-    notes.forEach((note) => {
-      const content = note.textContent.toLowerCase();
-      const show = content.includes(query);
-      note.style.display = show ? "block" : "none";
-      if (show) matchFound = true;
-    });
-
-    if (!matchFound) {
-      const msg = document.createElement("p");
-      msg.textContent = `No notes found for "${query}"`;
-      msg.style.color = "red";
-      msg.style.fontWeight = "bold";
-      msg.style.marginTop = "20px";
-      document.getElementById("notes-container").appendChild(msg);
-    }
-  }
-}
-
+  
