@@ -7,12 +7,12 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | Username | Level 1 | Level 2 | Level 3 | PRs Merged |
 |----------|---------|---------|---------|-------------|
 | [@Peehu1308](https://github.com/Peehu1308) | 3 | 4 | 0 | 7 |
-| [@AlapatiSreeHarsha](https://github.com/AlapatiSreeHarsha) | 3 | 1 | 0 | 8 |
+| [@AlapatiSreeHarsha](https://github.com/AlapatiSreeHarsha) | 3 | 1 | 0 | 9 |
+| [@StephanosNikitis](https://github.com/StephanosNikitis) | 5 | 0 | 0 | 3 |
 | [@Copilot](https://github.com/Copilot) | 0 | 2 | 1 | 5 |
 | [@SagnikDey1503](https://github.com/SagnikDey1503) | 3 | 1 | 0 | 4 |
 | [@Radhika984](https://github.com/Radhika984) | 1 | 2 | 0 | 4 |
 | [@Harsh-26626](https://github.com/Harsh-26626) | 2 | 2 | 0 | 2 |
-| [@StephanosNikitis](https://github.com/StephanosNikitis) | 4 | 0 | 0 | 2 |
 | [@Srushtee1706](https://github.com/Srushtee1706) | 3 | 1 | 0 | 2 |
 | [@snehhhcodes](https://github.com/snehhhcodes) | 2 | 1 | 0 | 3 |
 | [@AshmitSherigar](https://github.com/AshmitSherigar) | 3 | 0 | 0 | 3 |
@@ -21,6 +21,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Sujal-Raj](https://github.com/Sujal-Raj) | 0 | 1 | 0 | 3 |
 | [@lobby11](https://github.com/lobby11) | 2 | 0 | 0 | 1 |
 | [@Arsenal17x](https://github.com/Arsenal17x) | 1 | 0 | 0 | 2 |
+| [@Shobhini](https://github.com/Shobhini) | 1 | 0 | 0 | 1 |
 | [@Kalika-Jay](https://github.com/Kalika-Jay) | 0 | 0 | 1 | 1 |
 | [@vanshika-ramchandani](https://github.com/vanshika-ramchandani) | 1 | 0 | 0 | 1 |
 | [@DivyaJain-DataAnalyst](https://github.com/DivyaJain-DataAnalyst) | 1 | 0 | 0 | 1 |
@@ -45,6 +46,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@SHUBBHAM-KUMARR](https://github.com/SHUBBHAM-KUMARR) | 1 | 0 | 0 | 1 |
 | [@rawatjidelhiwale](https://github.com/rawatjidelhiwale) | 1 | 1 | 0 | 0 |
 | [@suedaysse](https://github.com/suedaysse) | 1 | 0 | 0 | 1 |
+| [@JaganParida](https://github.com/JaganParida) | 1 | 0 | 0 | 0 |
 | [@Suhani1234-5](https://github.com/Suhani1234-5) | 0 | 1 | 0 | 0 |
 | [@Adil642](https://github.com/Adil642) | 0 | 1 | 0 | 0 |
 | [@aditikrishsharma](https://github.com/aditikrishsharma) | 0 | 1 | 0 | 0 |
