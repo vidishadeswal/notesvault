@@ -9,7 +9,6 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Peehu1308](https://github.com/Peehu1308) | 3 | 4 | 0 | 7 |
 | [@AlapatiSreeHarsha](https://github.com/AlapatiSreeHarsha) | 3 | 1 | 0 | 9 |
 | [@StephanosNikitis](https://github.com/StephanosNikitis) | 5 | 0 | 0 | 3 |
-| [@Copilot](https://github.com/Copilot) | 0 | 2 | 1 | 5 |
 | [@SagnikDey1503](https://github.com/SagnikDey1503) | 3 | 1 | 0 | 4 |
 | [@Srushtee1706](https://github.com/Srushtee1706) | 3 | 1 | 0 | 3 |
 | [@Radhika984](https://github.com/Radhika984) | 1 | 2 | 0 | 4 |
@@ -46,12 +45,12 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@DhawalShankar](https://github.com/DhawalShankar) | 0 | 1 | 0 | 1 |
 | [@RAJVEER42](https://github.com/RAJVEER42) | 0 | 1 | 0 | 1 |
 | [@SHUBBHAM-KUMARR](https://github.com/SHUBBHAM-KUMARR) | 1 | 0 | 0 | 1 |
-| [@rawatjidelhiwale](https://github.com/rawatjidelhiwale) | 1 | 1 | 0 | 0 |
 | [@suedaysse](https://github.com/suedaysse) | 1 | 0 | 0 | 1 |
 | [@JaganParida](https://github.com/JaganParida) | 1 | 0 | 0 | 0 |
 | [@HemantSharma456](https://github.com/HemantSharma456) | 1 | 0 | 0 | 0 |
 | [@Suhani1234-5](https://github.com/Suhani1234-5) | 0 | 1 | 0 | 0 |
 | [@Adil642](https://github.com/Adil642) | 0 | 1 | 0 | 0 |
+| [@rawatjidelhiwale](https://github.com/rawatjidelhiwale) | 1 | 0 | 0 | 0 |
 | [@aditikrishsharma](https://github.com/aditikrishsharma) | 0 | 1 | 0 | 0 |
 
 ---
