@@ -26,6 +26,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Kalika-Jay](https://github.com/Kalika-Jay) | 0 | 0 | 1 | 1 |
 | [@vanshika-ramchandani](https://github.com/vanshika-ramchandani) | 1 | 0 | 0 | 1 |
 | [@DivyaJain-DataAnalyst](https://github.com/DivyaJain-DataAnalyst) | 1 | 0 | 0 | 1 |
+| [@dhruv-git-sys](https://github.com/dhruv-git-sys) | 1 | 0 | 0 | 1 |
 | [@ud-ai](https://github.com/ud-ai) | 1 | 0 | 0 | 1 |
 | [@FrostByte-49](https://github.com/FrostByte-49) | 0 | 1 | 0 | 1 |
 | [@neelima-singh07](https://github.com/neelima-singh07) | 1 | 0 | 0 | 1 |
