@@ -97,6 +97,7 @@ main h2 {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+}
 .upload-container {
   max-width: 600px;
   margin: 0 auto;

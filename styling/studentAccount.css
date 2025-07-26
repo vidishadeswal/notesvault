@@ -1,3 +1,4 @@
+/* General Reset */
 body {
   font-family: "Segoe UI", sans-serif;
   background-color: #f9fbff;
@@ -5,6 +6,7 @@ body {
   padding: 0;
 }
 
+/* Container */
 .container {
   max-width: 900px;
   margin: 40px auto;
@@ -20,10 +22,12 @@ h1 {
   margin-bottom: 30px;
 }
 
-.profile, .notes-section {
+/* Profile & Notes */
+.profile,
+.notes-section {
   margin-bottom: 30px;
   padding: 20px;
-  border-left: 6px solid #4a90e2;
+  border-left: 6px solid #2a343e;
   background-color: #f0f7ff;
   border-radius: 8px;
 }
@@ -48,7 +52,7 @@ h1 {
 }
 
 .note-card h3 {
-  color: #1a73e8;
+  color: #111417;
   margin-bottom: 10px;
 }
 
@@ -94,4 +98,100 @@ h1 {
 
 .back-btn button:hover {
   background-color: #2e2e2e;
+}
+
+/* ================= HEADER STYLES =================== */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #171d23;
+  color: white;
+  padding: 12px 24px;
+  flex-wrap: wrap;
+}
+
+#header-title-box #header-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#header-navigation a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#header-navigation a:hover {
+  text-decoration: underline;
+}
+
+#header-signup-box p {
+  margin: 0;
+  background-color: white;
+  color: #1a73e8;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#header-signup-box p:hover {
+  background-color: #f1f1f1;
+}
+
+/* Hamburger Menu */
+.hamburger-wrapper {
+  position: relative;
+}
+
+.hamburger-menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 6px;
+}
+
+.hamburger-line {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
+.hover-sidebar {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #1a73e8;
+  padding: 10px;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.hamburger-wrapper:hover .hover-sidebar {
+  display: block;
+}
+
+.hover-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hover-sidebar li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.hover-sidebar li a:hover {
+  text-decoration: underline;
 }
