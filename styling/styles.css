@@ -162,16 +162,23 @@
 
 /* Sidebar - hidden by default */
 .hover-sidebar {
-  position: absolute;
-  top: 0;
-  left: -250px; /* Hidden left */
-  width: 180px;
-  height: 100vh;
-  background: white;
-  box-shadow: 2px 0 10px rgba(0,0,0,0.1);
-  transition: left 0.3s ease;
-  border-radius: 20px;
-  /* border: 2px black; */
+      position: absolute;
+    top: 35px;
+    left: -350px;
+    width: 300px;
+    display: flex;
+    opacity: 0.9;
+
+    /* height: 100vh; */
+    background: white;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease;
+    border-radius: 20px;
+    /* border: 2px black; */
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
 }
 
 .hover-sidebar a{
@@ -180,6 +187,7 @@
   margin: 20px;
   display: flex;
   flex-direction: column;
+  align-items: anchor-center;
   gap: 50px;
 
 }
@@ -439,7 +447,6 @@
   align-items: center;
   border-radius: 25px;
   padding: 10px 20px;
-  width: calc(30vw - 130px);
   max-width: 600px;
 }
 
@@ -453,7 +460,7 @@
   border: none;
   border-radius: 10px;
   padding: 10px 30px;
-  max-width: calc(30vw - 130px);
+  
 }
 
 .search-input-field {
@@ -2351,8 +2358,8 @@ main{
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding: 4rem 2rem;
-  background-color: #f9f9f9;
+  padding: 2rem 2rem;
+  background-color: #0d0d0d;
 }
 
 .feature-card {
