@@ -27,7 +27,7 @@ h1 {
 .notes-section {
   margin-bottom: 30px;
   padding: 20px;
-  border-left: 6px solid #4a90e2;
+  border-left: 6px solid #2a343e;
   background-color: #f0f7ff;
   border-radius: 8px;
 }
@@ -52,7 +52,7 @@ h1 {
 }
 
 .note-card h3 {
-  color: #1a73e8;
+  color: #111417;
   margin-bottom: 10px;
 }
 
@@ -106,7 +106,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1a73e8;
+  background-color: #171d23;
   color: white;
   padding: 12px 24px;
   flex-wrap: wrap;
