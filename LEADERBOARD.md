@@ -49,6 +49,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@rawatjidelhiwale](https://github.com/rawatjidelhiwale) | 1 | 1 | 0 | 0 |
 | [@suedaysse](https://github.com/suedaysse) | 1 | 0 | 0 | 1 |
 | [@JaganParida](https://github.com/JaganParida) | 1 | 0 | 0 | 0 |
+| [@HemantSharma456](https://github.com/HemantSharma456) | 1 | 0 | 0 | 0 |
 | [@Suhani1234-5](https://github.com/Suhani1234-5) | 0 | 1 | 0 | 0 |
 | [@Adil642](https://github.com/Adil642) | 0 | 1 | 0 | 0 |
 | [@aditikrishsharma](https://github.com/aditikrishsharma) | 0 | 1 | 0 | 0 |
