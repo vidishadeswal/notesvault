@@ -1,79 +1,75 @@
----
-name: Greet and Label Issues/PRs
+name: Greet and Guide for Issues and PRs
 
-"on":
+on:
   issues:
     types: [opened]
   pull_request:
     types: [opened]
 
-permissions:
-  issues: write
-  pull-requests: write
-  contents: read
-
 jobs:
-  greet-and-label:
+  issue_greet_label_assign:
+    if: github.event_name == 'issues'
     runs-on: ubuntu-latest
     steps:
-      - name: Greet and Label
+      - name: Add 'gssoc2025' label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: gssoc2025
+
+      - name: Assign issue opener
+        uses: actions-ecosystem/action-add-assignees@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          assignees: ${{ github.event.issue.user.login }}
+
+      - name: Greet and post guidelines for Issue
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const { context, github } = require('@actions/github');
+            const guidelines = `
+            👋 Hi @${{ github.event.issue.user.login }}! Thanks for opening this issue.
 
-            // Determine if this is an issue or pull request
-            const isIssue = context.eventName === 'issues';
-            const isPR = context.eventName === 'pull_request';
+            **Contributor Guidelines**
+            1. Make sure your issue is clear and descriptive.
+            2. If you are reporting a bug, please include steps to reproduce it.
+            3. If suggesting a feature, explain why it would be beneficial.
+            4. Be respectful and constructive in your comments.
+            5. Review our [Contributing Guide](https://github.com/opensource-society/notesvault/blob/main/CONTRIBUTING.md) for more details.
 
-            // Get the issue or PR data
-            const item = isIssue ? context.payload.issue :
-              context.payload.pull_request;
-            const itemType = isIssue ? 'issue' : 'PR';
-            const itemNumber = item.number;
+            Good luck contributing to NotesVault! 🚀
+            `;
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: guidelines
+            });
 
-            // Post greeting comment
-            const greetingMessage =
-              `Thank you for raising this ${itemType}! ` +
-              'The Copilot assistant welcomes your contribution.';
+  pr_greet_guidelines:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet and post guidelines for PR
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const guidelines = `
+            👋 Hi @${{ github.event.pull_request.user.login }}! Thanks for opening this pull request.
 
-            if (isIssue) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: itemNumber,
-                body: greetingMessage
-              });
-            } else {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: itemNumber,
-                body: greetingMessage
-              });
-            }
+            **Contributor Guidelines**
+            1. Please make sure your PR description is clear and links to related issues if applicable.
+            2. Ensure your code follows our style guide and passes all tests.
+            3. Be respectful and constructive in your comments and reviews.
+            4. Review our [Contributing Guide](https://github.com/opensource-society/notesvault/blob/main/CONTRIBUTING.md) for more details.
 
-            // Check if the issue/PR is 'generous' and add label
-            if (isIssue) {
-              const title = item.title.toLowerCase();
-              const body = (item.body || '').toLowerCase();
-              const content = title + ' ' + body;
-
-              // Check for generous keywords
-              const generousKeywords = ['contribution', 'feature', 'help'];
-              const isGenerous = generousKeywords.some(keyword =>
-                content.includes(keyword));
-
-              if (isGenerous) {
-                console.log('Issue appears to be generous, ' +
-                  'adding gssoc2025 label');
-                await github.rest.issues.addLabels({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: itemNumber,
-                  labels: ['gssoc2025']
-                });
-              }
-            }
-
-            console.log(`Successfully processed ${itemType} #${itemNumber}`);
+            Good luck contributing to NotesVault! 🚀
+            `;
+            await github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: guidelines
+            });
