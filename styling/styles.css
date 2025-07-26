@@ -164,40 +164,51 @@
 .hover-sidebar {
   position: absolute;
   top: 0;
-  left: -250px; /* Hidden left */
-  width: 180px;
+  left: -200px; /* Initially hidden */
+  width: 200px;
   height: 100vh;
-  background: white;
-  box-shadow: 2px 0 10px rgba(0,0,0,0.1);
-  transition: left 0.3s ease;
+  background-color: white;
+  box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.15); /* Stronger, deeper shadow */
+  transition: left 0.4s ease-in-out;
   border-radius: 20px;
-  /* border: 2px black; */
+  padding: 30px 20px;
+  z-index: 999;
 }
 
-.hover-sidebar a{
+.hover-sidebar a {
+  display: block;
   text-decoration: none;
   color: black;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-
+  font-size: 16px;
+  margin: 20px 0;
+  transition: color 0.2s ease;
 }
-.hover-sidebar a:hover{
+
+.hover-sidebar a:hover {
   color: green;
   text-decoration: underline;
 }
 
-/* On hover, slide the sidebar in */
+/* On hover of hamburger, slide sidebar in */
 .hamburger-wrapper:hover .hover-sidebar {
-  left: 50px; /* Adjust to position beside hamburger */
+  left: 0;
 }
 
-  /* Navigation Menu Styles */
-  #header #header-navigation {
-    width: 40vw;
-    justify-content: space-between;
-  }
+/* Optional: Hamburger styling */
+.hamburger-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Navigation Menu Styles */
+#header #header-navigation {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 
   .theme-toggle {
