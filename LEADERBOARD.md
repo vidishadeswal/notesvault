@@ -21,6 +21,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Sujal-Raj](https://github.com/Sujal-Raj) | 0 | 1 | 0 | 3 |
 | [@lobby11](https://github.com/lobby11) | 2 | 0 | 0 | 1 |
 | [@Arsenal17x](https://github.com/Arsenal17x) | 1 | 0 | 0 | 2 |
+| [@Shobhini](https://github.com/Shobhini) | 1 | 0 | 0 | 1 |
 | [@Kalika-Jay](https://github.com/Kalika-Jay) | 0 | 0 | 1 | 1 |
 | [@vanshika-ramchandani](https://github.com/vanshika-ramchandani) | 1 | 0 | 0 | 1 |
 | [@DivyaJain-DataAnalyst](https://github.com/DivyaJain-DataAnalyst) | 1 | 0 | 0 | 1 |
