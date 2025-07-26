@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Find the selected branch and semester to get the subjects
     const branchData = allData.branches.find(b => b.name === selectedBranch);
     if (branchData && branchData.semesters) {
-      const semesterData = branchData.semesters.find(sem => sem.semester == selectedSemester);
+      const semesterData = branchData.semesters.find(sem => sem.semester ==  selectedSemester);
       if (semesterData && semesterData.subjects) {
         // Extracts the name of the subject
         subjectNames = semesterData.subjects.map(sub => Object.values(sub)[0]);
@@ -82,25 +82,25 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Create the new subject dropdown
-    createDropdown(searchSubjectContainer, "selectSubject", "Select Subject", subjectNames);
+    createDropdown(searchSubjectContainer, "selectSubject", "Select Subject",  subjectNames);
   }
 
   // --- Main Logic: Fetch data and initialize the first dropdown ---
   fetch("data/search_parameters/parameters.json")
-      .then(res => res.json())
-      .then(data => {
-        allData = data; // Store all data globally within this script's scope
-        const branchNames = allData.branches.filter(b => b.name && b.name.trim() !== "").map(b => b.name);
-        const branchSelect = createDropdown(searchBranchContainer, "selectBranch", "Select Branch", branchNames);
+  .then(res => res.json())
+  .then(data => {
+    allData = data; // Store all data globally within this script's scope
+    const branchNames = allData.branches.filter(b => b.name && b.name.trim()  !==  "").map(b => b.name);
+    const branchSelect = createDropdown(searchBranchContainer, "selectBranch", "Select Branch", branchNames);
 
-        // Add the event listener to the main branch dropdown
-        branchSelect.addEventListener("change", updateSemesters);
-      })
-      .catch(error => console.error("Error fetching parameters:", error));
+      // Add the event listener to the main branch dropdown
+      branchSelect.addEventListener("change", updateSemesters);
+  })
+  .catch(error => console.error("Error fetching parameters:", error));
 
 
-  // --- Typewriter Effect ---
-  // This is the single, corrected typewriter function
+         // --- Typewriter Effect ---
+         // This is the single, corrected typewriter function
   const words = ["Branch", "Semester", "Subject", "Year"];
   let currentWordIndex = 0;
   let charIndex = 0;
@@ -173,8 +173,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initialize theme on page load
   (function initTheme() {
     const savedTheme = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    document.documentElement.setAttribute('data-theme', savedTheme || (prefersDark ? 'dark' : 'light'));
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color- scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', savedTheme ||  (prefersDark ? 'dark' : 'light'));
   })();
 
   document.querySelectorAll(".upload-btn").forEach(btn => {
@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("notes-container").appendChild(msg);
       }
     }
- });
+  });
 
   function runQuerySearch() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -236,5 +236,5 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   }
-
+});
   
