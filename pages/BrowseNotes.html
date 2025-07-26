@@ -174,6 +174,27 @@ nav ul li a:hover {
     color: #888;
     padding: 20px;
 }
+.search-bar {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-bar input {
+    width: 60%;
+    max-width: 500px;
+    padding: 12px 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+    border-color: #007bff;
+}
+
 
 /* Modal Styling */
 .modal {
@@ -322,6 +343,11 @@ nav ul li a:hover {
 
     <main class="browse-notes-container">
         <h1>Browse All Notes</h1>
+        <!--Search Bar-->
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search notes by title, branch, or semester..." />
+        </div>
+
 
         <div class="notes-grid" id="notesGrid">
             <div class="loading-message" id="loadingMessage">Loading notes...</div>
@@ -471,6 +497,59 @@ document.addEventListener('DOMContentLoaded', () => {
 
         return noteCard;
     }
+    const searchInput = document.getElementById('searchInput');
+    let allNotes = []; // Holds all notes, including hidden
+
+      // Replace dummyNotes assignment:
+    allNotes = dummyNotes;
+
+    function displayNotes(notesToShow, initialLoad = false) {
+    notesGrid.innerHTML = '';
+    if (notesToShow.length === 0) {
+        noNotesMessage.style.display = 'block';
+        return;
+    } else {
+        noNotesMessage.style.display = 'none';
+    }
+
+    const notesToDisplay = initialLoad ? notesToShow.slice(0, 3) : notesToShow;
+
+    notesToDisplay.forEach(note => {
+        const noteCard = createNoteCard(note);
+        notesGrid.appendChild(noteCard);
+    });
+   }
+
+      // Update fetchNotes() to call displayNotes():
+    async function fetchNotes() {
+    loadingMessage.style.display = 'block';
+    notesGrid.innerHTML = '';
+
+    try {
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        allNotes = dummyNotes; // Store all notes
+        displayNotes(allNotes, true); // Show only 3 at first
+    } catch (error) {
+        console.error('Error fetching notes:', error);
+        notesGrid.innerHTML = `<p class="error-message">Failed to load notes. Please try again later.</p>`;
+    } finally {
+        loadingMessage.style.display = 'none';
+    }
+   }
+
+// Add search filter:
+    searchInput.addEventListener('keyup', () => {
+    const query = searchInput.value.toLowerCase().trim();
+
+    const filteredNotes = allNotes.filter(note =>
+        note.title.toLowerCase().includes(query) ||
+        note.branch.toLowerCase().includes(query) ||
+        note.semester.toLowerCase().includes(query)
+    );
+
+    displayNotes(filteredNotes);
+   });
+
 
     // Function to open the note detail modal
     function openNoteDetailModal(note) {
