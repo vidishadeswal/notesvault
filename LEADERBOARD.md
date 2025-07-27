@@ -56,7 +56,6 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@rawatjidelhiwale](https://github.com/rawatjidelhiwale) | 1 | 0 | 0 | 0 |
 | [@aditikrishsharma](https://github.com/aditikrishsharma) | 0 | 1 | 0 | 0 |
 
----
 
 **Legend:**
 - **Level 1/2/3**: Number of completed issues with respective level labels

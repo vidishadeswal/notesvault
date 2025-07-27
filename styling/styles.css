@@ -99,8 +99,8 @@
     padding: 15px 20px;
     background: #ffffff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    backdrop-filter: none;
     -webkit-backdrop-filter: none;
+    backdrop-filter: none;
     border-bottom: none !important;
     margin: 0;
   }
@@ -207,7 +207,7 @@
   margin: 20px;
   display: flex;
   flex-direction: column;
-  align-items: anchor-center;
+  align-items: center;
   gap: 50px;
 
 
@@ -352,8 +352,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
-    backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
     box-shadow: none !important;
     border-bottom: none !important;
     margin: 0;
@@ -1645,6 +1645,7 @@
     color: #dff8f8;
     text-decoration: none;
     transition: all 0.3s ease;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 0 transparent;
     /* base state */
@@ -2030,8 +2031,8 @@ nav {
 
   /* ✨ Glassmorphism with green tint */
   background: rgba(76, 175, 80, 0.2); /* Greenish glass background */
-  backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
   border-radius: 16px;
   border: 1px solid rgba(76, 175, 80, 0.3);
   box-shadow: 0 8px 32px rgba(76, 175, 80, 0.25);
@@ -2487,6 +2488,11 @@ main{
 #scrollToTopBtn {
   position: fixed;
   bottom: 30px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   right: 30px;
   background: #163d3b;
   color: #fff;
@@ -2501,7 +2507,7 @@ main{
 
 #scrollToTopBtn:hover {
   background: #14524c;
-}}
+}
 /*for features section */
 .card-container {
   display: flex;
@@ -2562,7 +2568,7 @@ main{
 
   .footer-description {
     font-size: 15px;
-    color: #333;
+    color: #ccc;
     line-height: 1.6;
   }
 
