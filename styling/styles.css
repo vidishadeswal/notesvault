@@ -99,8 +99,8 @@
     padding: 15px 20px;
     background: #ffffff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    backdrop-filter: none;
     -webkit-backdrop-filter: none;
+    backdrop-filter: none;
     border-bottom: none !important;
     margin: 0;
   }
@@ -160,46 +160,33 @@
   padding-left: 20px;
 }
 
-/* Sidebar - hidden by default */
 .hover-sidebar {
-
   position: absolute;
-  top: 0;
-  left: -200px; /* Initially hidden */
-  width: 200px;
+  top: 50px;
+  left: -350px;
+  width: 300px;
   height: 100vh;
-  background-color: white;
-  box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.15); /* Stronger, deeper shadow */
+  background: #ffffff; /* Solid white */
+  color: black; /* Default text color */
+  box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.15);
   transition: left 0.4s ease-in-out;
   border-radius: 20px;
   padding: 30px 20px;
   z-index: 999;
+  display:none;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px black solid;
+  background-color: #000;
+}
 
-      position: absolute;
-    top: 35px;
-    left: -350px;
-    width: 300px;
-    display: flex;
-    opacity: 0.9;
-
-    /* height: 100vh; */
-    background: white;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-    transition: left 0.3s ease;
-    border-radius: 20px;
-    /* border: 2px black; */
-    align-content: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-
-
+.hover-sidebar.sidebar-active {
+  left: 0;
 }
 
 .hover-sidebar a {
-  display: block;
-  text-decoration: none;
   color: black;
-
+  text-decoration: none;
   font-size: 16px;
   margin: 20px 0;
   transition: color 0.2s ease;
@@ -207,15 +194,16 @@
   margin: 20px;
   display: flex;
   flex-direction: column;
-  align-items: anchor-center;
+  align-items: center;
   gap: 50px;
-
-
 }
 
 .hover-sidebar a:hover {
   color: green;
   text-decoration: underline;
+}
+.dark-mode .hover-sidebar a {
+  color: white; /* <-- Remove or override if unnecessary */
 }
 
 /* On hover of hamburger, slide sidebar in */
@@ -352,8 +340,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
-    backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
     box-shadow: none !important;
     border-bottom: none !important;
     margin: 0;
@@ -1646,6 +1634,7 @@
     color: #dff8f8;
     text-decoration: none;
     transition: all 0.3s ease;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 0 transparent;
     /* base state */
@@ -2031,8 +2020,8 @@ nav {
 
   /* ✨ Glassmorphism with green tint */
   background: rgba(76, 175, 80, 0.2); /* Greenish glass background */
-  backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
   border-radius: 16px;
   border: 1px solid rgba(76, 175, 80, 0.3);
   box-shadow: 0 8px 32px rgba(76, 175, 80, 0.25);
@@ -2484,6 +2473,11 @@ main{
 #scrollToTopBtn {
   position: fixed;
   bottom: 30px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   right: 30px;
   background: #163d3b;
   color: #fff;
@@ -2560,7 +2554,7 @@ main{
 
   .footer-description {
     font-size: 15px;
-    color: #333;
+    color: #ccc;
     line-height: 1.6;
   }
 
@@ -2614,3 +2608,4 @@ main{
       align-items: flex-start;
     }
   }
+
