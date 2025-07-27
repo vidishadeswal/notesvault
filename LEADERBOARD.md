@@ -8,7 +8,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 |----------|---------|---------|---------|-------------|
 | [@Peehu1308](https://github.com/Peehu1308) | 4 | 4 | 0 | 8 |
 | [@AlapatiSreeHarsha](https://github.com/AlapatiSreeHarsha) | 3 | 1 | 0 | 9 |
-| [@StephanosNikitis](https://github.com/StephanosNikitis) | 5 | 0 | 0 | 3 |
+| [@StephanosNikitis](https://github.com/StephanosNikitis) | 6 | 0 | 0 | 4 |
 | [@SagnikDey1503](https://github.com/SagnikDey1503) | 3 | 1 | 0 | 4 |
 | [@Srushtee1706](https://github.com/Srushtee1706) | 3 | 1 | 0 | 3 |
 | [@Radhika984](https://github.com/Radhika984) | 1 | 2 | 0 | 4 |
