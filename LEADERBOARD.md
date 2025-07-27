@@ -15,10 +15,10 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Harsh-26626](https://github.com/Harsh-26626) | 2 | 2 | 0 | 2 |
 | [@snehhhcodes](https://github.com/snehhhcodes) | 2 | 1 | 0 | 3 |
 | [@AshmitSherigar](https://github.com/AshmitSherigar) | 3 | 0 | 0 | 3 |
+| [@Shobhini](https://github.com/Shobhini) | 2 | 0 | 0 | 3 |
 | [@MeenakshiAM](https://github.com/MeenakshiAM) | 2 | 1 | 0 | 2 |
 | [@VidhanThakur09](https://github.com/VidhanThakur09) | 0 | 2 | 0 | 2 |
 | [@Sujal-Raj](https://github.com/Sujal-Raj) | 0 | 1 | 0 | 3 |
-| [@Shobhini](https://github.com/Shobhini) | 1 | 0 | 0 | 2 |
 | [@Pallavi-kr6](https://github.com/Pallavi-kr6) | 1 | 1 | 0 | 1 |
 | [@lobby11](https://github.com/lobby11) | 2 | 0 | 0 | 1 |
 | [@Arsenal17x](https://github.com/Arsenal17x) | 1 | 0 | 0 | 2 |
@@ -47,6 +47,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@RAJVEER42](https://github.com/RAJVEER42) | 0 | 1 | 0 | 1 |
 | [@SHUBBHAM-KUMARR](https://github.com/SHUBBHAM-KUMARR) | 1 | 0 | 0 | 1 |
 | [@suedaysse](https://github.com/suedaysse) | 1 | 0 | 0 | 1 |
+| [@Shubham-cyber-prog](https://github.com/Shubham-cyber-prog) | 0 | 1 | 0 | 0 |
 | [@Disha19-09](https://github.com/Disha19-09) | 1 | 0 | 0 | 0 |
 | [@JaganParida](https://github.com/JaganParida) | 1 | 0 | 0 | 0 |
 | [@HemantSharma456](https://github.com/HemantSharma456) | 1 | 0 | 0 | 0 |
