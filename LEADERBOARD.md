@@ -51,6 +51,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Shubham-cyber-prog](https://github.com/Shubham-cyber-prog) | 0 | 1 | 0 | 0 |
 | [@Disha19-09](https://github.com/Disha19-09) | 1 | 0 | 0 | 0 |
 | [@JaganParida](https://github.com/JaganParida) | 1 | 0 | 0 | 0 |
+| [@sabaaa01](https://github.com/sabaaa01) | 1 | 0 | 0 | 0 |
 | [@HemantSharma456](https://github.com/HemantSharma456) | 1 | 0 | 0 | 0 |
 | [@Suhani1234-5](https://github.com/Suhani1234-5) | 0 | 1 | 0 | 0 |
 | [@Adil642](https://github.com/Adil642) | 0 | 1 | 0 | 0 |
