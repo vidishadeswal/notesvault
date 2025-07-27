@@ -22,6 +22,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Pallavi-kr6](https://github.com/Pallavi-kr6) | 1 | 1 | 0 | 1 |
 | [@lobby11](https://github.com/lobby11) | 2 | 0 | 0 | 1 |
 | [@Arsenal17x](https://github.com/Arsenal17x) | 1 | 0 | 0 | 2 |
+| [@Kushanware](https://github.com/Kushanware) | 1 | 0 | 0 | 1 |
 | [@utkarshwrks](https://github.com/utkarshwrks) | 1 | 0 | 0 | 1 |
 | [@Kalika-Jay](https://github.com/Kalika-Jay) | 0 | 0 | 1 | 1 |
 | [@vanshika-ramchandani](https://github.com/vanshika-ramchandani) | 1 | 0 | 0 | 1 |
@@ -56,6 +57,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@rawatjidelhiwale](https://github.com/rawatjidelhiwale) | 1 | 0 | 0 | 0 |
 | [@aditikrishsharma](https://github.com/aditikrishsharma) | 0 | 1 | 0 | 0 |
 
+---
 
 **Legend:**
 - **Level 1/2/3**: Number of completed issues with respective level labels
