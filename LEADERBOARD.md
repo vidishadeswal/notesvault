@@ -12,10 +12,10 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@SagnikDey1503](https://github.com/SagnikDey1503) | 3 | 1 | 0 | 4 |
 | [@Srushtee1706](https://github.com/Srushtee1706) | 3 | 1 | 0 | 3 |
 | [@Radhika984](https://github.com/Radhika984) | 1 | 2 | 0 | 4 |
+| [@Pallavi-kr6](https://github.com/Pallavi-kr6) | 3 | 1 | 0 | 2 |
 | [@Harsh-26626](https://github.com/Harsh-26626) | 2 | 2 | 0 | 2 |
 | [@snehhhcodes](https://github.com/snehhhcodes) | 2 | 1 | 0 | 3 |
 | [@AshmitSherigar](https://github.com/AshmitSherigar) | 3 | 0 | 0 | 3 |
-| [@Pallavi-kr6](https://github.com/Pallavi-kr6) | 2 | 1 | 0 | 2 |
 | [@Shobhini](https://github.com/Shobhini) | 2 | 0 | 0 | 3 |
 | [@MeenakshiAM](https://github.com/MeenakshiAM) | 2 | 1 | 0 | 2 |
 | [@VidhanThakur09](https://github.com/VidhanThakur09) | 0 | 2 | 0 | 2 |
@@ -23,6 +23,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@lobby11](https://github.com/lobby11) | 2 | 0 | 0 | 1 |
 | [@Arsenal17x](https://github.com/Arsenal17x) | 1 | 0 | 0 | 2 |
 | [@Kushanware](https://github.com/Kushanware) | 1 | 0 | 0 | 1 |
+| [@Samruddhiwagh1606](https://github.com/Samruddhiwagh1606) | 1 | 0 | 0 | 1 |
 | [@utkarshwrks](https://github.com/utkarshwrks) | 1 | 0 | 0 | 1 |
 | [@Kalika-Jay](https://github.com/Kalika-Jay) | 0 | 0 | 1 | 1 |
 | [@vanshika-ramchandani](https://github.com/vanshika-ramchandani) | 1 | 0 | 0 | 1 |
@@ -48,6 +49,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@RAJVEER42](https://github.com/RAJVEER42) | 0 | 1 | 0 | 1 |
 | [@SHUBBHAM-KUMARR](https://github.com/SHUBBHAM-KUMARR) | 1 | 0 | 0 | 1 |
 | [@suedaysse](https://github.com/suedaysse) | 1 | 0 | 0 | 1 |
+| [@LavanyaC04](https://github.com/LavanyaC04) | 1 | 0 | 0 | 0 |
 | [@Shubham-cyber-prog](https://github.com/Shubham-cyber-prog) | 0 | 1 | 0 | 0 |
 | [@Disha19-09](https://github.com/Disha19-09) | 1 | 0 | 0 | 0 |
 | [@JaganParida](https://github.com/JaganParida) | 1 | 0 | 0 | 0 |
