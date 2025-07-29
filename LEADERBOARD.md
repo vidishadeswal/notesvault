@@ -2,7 +2,7 @@
 
 This leaderboard tracks contributors who have completed issues labeled as `level1`, `level2`, or `level3`, along with their merged pull requests.
 
-*Last updated: 2025-07-28*
+*Last updated: 2025-07-29*
 
 | Username | Level 1 | Level 2 | Level 3 | PRs Merged |
 |----------|---------|---------|---------|-------------|
@@ -49,6 +49,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@DhawalShankar](https://github.com/DhawalShankar) | 0 | 1 | 0 | 1 |
 | [@RAJVEER42](https://github.com/RAJVEER42) | 0 | 1 | 0 | 1 |
 | [@SHUBBHAM-KUMARR](https://github.com/SHUBBHAM-KUMARR) | 1 | 0 | 0 | 1 |
+| [@suedaysse](https://github.com/suedaysse) | 1 | 0 | 0 | 1 |
 | [@LavanyaC04](https://github.com/LavanyaC04) | 1 | 0 | 0 | 0 |
 | [@Shubham-cyber-prog](https://github.com/Shubham-cyber-prog) | 0 | 1 | 0 | 0 |
 | [@Disha19-09](https://github.com/Disha19-09) | 1 | 0 | 0 | 0 |
@@ -59,7 +60,6 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Adil642](https://github.com/Adil642) | 0 | 1 | 0 | 0 |
 | [@rawatjidelhiwale](https://github.com/rawatjidelhiwale) | 1 | 0 | 0 | 0 |
 | [@aditikrishsharma](https://github.com/aditikrishsharma) | 0 | 1 | 0 | 0 |
-| [@suedaysse](https://github.com/suedaysse) | 1 | 0 | 0 | 0 |
 
 ---
 
