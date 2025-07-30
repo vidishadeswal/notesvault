@@ -15,9 +15,9 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@AlapatiSreeHarsha](https://github.com/AlapatiSreeHarsha) | 3 | 1 | 0 | 9 |
 | [@StephanosNikitis](https://github.com/StephanosNikitis) | 6 | 0 | 0 | 4 |
 | [@SagnikDey1503](https://github.com/SagnikDey1503) | 3 | 1 | 0 | 4 |
+| [@Pallavi-kr6](https://github.com/Pallavi-kr6) | 4 | 1 | 0 | 2 |
 | [@Srushtee1706](https://github.com/Srushtee1706) | 3 | 1 | 0 | 3 |
 | [@Radhika984](https://github.com/Radhika984) | 1 | 2 | 0 | 4 |
-| [@Pallavi-kr6](https://github.com/Pallavi-kr6) | 3 | 1 | 0 | 2 |
 | [@Harsh-26626](https://github.com/Harsh-26626) | 2 | 2 | 0 | 2 |
 | [@snehhhcodes](https://github.com/snehhhcodes) | 2 | 1 | 0 | 3 |
 | [@AshmitSherigar](https://github.com/AshmitSherigar) | 3 | 0 | 0 | 3 |
