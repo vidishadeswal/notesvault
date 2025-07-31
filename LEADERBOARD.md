@@ -6,7 +6,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 
 | Username | Level 1 | Level 2 | Level 3 | PRs Merged |
 |----------|---------|---------|---------|-------------|
-| [@Peehu1308](https://github.com/Peehu1308) | 4 | 5 | 0 | 8 |
+| [@Peehu1308](https://github.com/Peehu1308) | 6 | 5 | 0 | 8 |
 | [@AlapatiSreeHarsha](https://github.com/AlapatiSreeHarsha) | 4 | 1 | 0 | 9 |
 | [@StephanosNikitis](https://github.com/StephanosNikitis) | 6 | 0 | 0 | 4 |
 | [@SagnikDey1503](https://github.com/SagnikDey1503) | 4 | 1 | 0 | 4 |
@@ -18,10 +18,11 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@AshmitSherigar](https://github.com/AshmitSherigar) | 3 | 0 | 0 | 3 |
 | [@Shobhini](https://github.com/Shobhini) | 2 | 0 | 0 | 3 |
 | [@MeenakshiAM](https://github.com/MeenakshiAM) | 2 | 1 | 0 | 2 |
+| [@lobby11](https://github.com/lobby11) | 3 | 0 | 0 | 1 |
 | [@VidhanThakur09](https://github.com/VidhanThakur09) | 0 | 2 | 0 | 2 |
 | [@Sujal-Raj](https://github.com/Sujal-Raj) | 0 | 1 | 0 | 3 |
 | [@Surabhi210](https://github.com/Surabhi210) | 2 | 0 | 0 | 1 |
-| [@lobby11](https://github.com/lobby11) | 2 | 0 | 0 | 1 |
+| [@JeevithaR3](https://github.com/JeevithaR3) | 1 | 1 | 0 | 1 |
 | [@Forever-299](https://github.com/Forever-299) | 2 | 0 | 0 | 1 |
 | [@Bala327](https://github.com/Bala327) | 2 | 0 | 0 | 1 |
 | [@Arsenal17x](https://github.com/Arsenal17x) | 1 | 0 | 0 | 2 |
@@ -47,7 +48,6 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Soumyosish](https://github.com/Soumyosish) | 1 | 0 | 0 | 1 |
 | [@Aripilli-Bhavana](https://github.com/Aripilli-Bhavana) | 1 | 0 | 0 | 1 |
 | [@deepanshu-prajapati01](https://github.com/deepanshu-prajapati01) | 1 | 0 | 0 | 1 |
-| [@JeevithaR3](https://github.com/JeevithaR3) | 0 | 1 | 0 | 1 |
 | [@DhawalShankar](https://github.com/DhawalShankar) | 0 | 1 | 0 | 1 |
 | [@RAJVEER42](https://github.com/RAJVEER42) | 0 | 1 | 0 | 1 |
 | [@SHUBBHAM-KUMARR](https://github.com/SHUBBHAM-KUMARR) | 1 | 0 | 0 | 1 |
@@ -59,6 +59,7 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@JaganParida](https://github.com/JaganParida) | 1 | 0 | 0 | 0 |
 | [@sabaaa01](https://github.com/sabaaa01) | 1 | 0 | 0 | 0 |
 | [@HemantSharma456](https://github.com/HemantSharma456) | 1 | 0 | 0 | 0 |
+| [@davekrisha](https://github.com/davekrisha) | 1 | 0 | 0 | 0 |
 | [@sameer-dixit](https://github.com/sameer-dixit) | 1 | 0 | 0 | 0 |
 | [@5uhani](https://github.com/5uhani) | 1 | 0 | 0 | 0 |
 | [@sumaya-786](https://github.com/sumaya-786) | 1 | 0 | 0 | 0 |
