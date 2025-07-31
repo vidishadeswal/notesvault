@@ -13,13 +13,18 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | Username | Level 1 | Level 2 | Level 3 | PRs Merged |
 |----------|---------|---------|---------|-------------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | *No contributors yet* | - | - | - | - |
 =======
 | [@Peehu1308](https://github.com/Peehu1308) | 4 | 4 | 0 | 8 |
 | [@AlapatiSreeHarsha](https://github.com/AlapatiSreeHarsha) | 3 | 1 | 0 | 9 |
+=======
+| [@Peehu1308](https://github.com/Peehu1308) | 4 | 5 | 0 | 8 |
+| [@AlapatiSreeHarsha](https://github.com/AlapatiSreeHarsha) | 4 | 1 | 0 | 9 |
+>>>>>>> 1c3a86f (Auto-update LEADERBOARD.md [skip ci])
 | [@StephanosNikitis](https://github.com/StephanosNikitis) | 6 | 0 | 0 | 4 |
+| [@SagnikDey1503](https://github.com/SagnikDey1503) | 4 | 1 | 0 | 4 |
 | [@Pallavi-kr6](https://github.com/Pallavi-kr6) | 5 | 1 | 0 | 2 |
-| [@SagnikDey1503](https://github.com/SagnikDey1503) | 3 | 1 | 0 | 4 |
 | [@Srushtee1706](https://github.com/Srushtee1706) | 3 | 1 | 0 | 3 |
 | [@Radhika984](https://github.com/Radhika984) | 1 | 2 | 0 | 4 |
 | [@Harsh-26626](https://github.com/Harsh-26626) | 2 | 2 | 0 | 2 |
@@ -31,7 +36,10 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@Sujal-Raj](https://github.com/Sujal-Raj) | 0 | 1 | 0 | 3 |
 | [@Surabhi210](https://github.com/Surabhi210) | 2 | 0 | 0 | 1 |
 | [@lobby11](https://github.com/lobby11) | 2 | 0 | 0 | 1 |
+| [@Forever-299](https://github.com/Forever-299) | 2 | 0 | 0 | 1 |
+| [@Bala327](https://github.com/Bala327) | 2 | 0 | 0 | 1 |
 | [@Arsenal17x](https://github.com/Arsenal17x) | 1 | 0 | 0 | 2 |
+| [@Mehak-Parveen](https://github.com/Mehak-Parveen) | 2 | 0 | 0 | 1 |
 | [@Kushanware](https://github.com/Kushanware) | 1 | 0 | 0 | 1 |
 | [@Samruddhiwagh1606](https://github.com/Samruddhiwagh1606) | 1 | 0 | 0 | 1 |
 | [@utkarshwrks](https://github.com/utkarshwrks) | 1 | 0 | 0 | 1 |
@@ -51,9 +59,8 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@mehershiri](https://github.com/mehershiri) | 1 | 0 | 0 | 1 |
 | [@Milu723](https://github.com/Milu723) | 1 | 0 | 0 | 1 |
 | [@Soumyosish](https://github.com/Soumyosish) | 1 | 0 | 0 | 1 |
+| [@Aripilli-Bhavana](https://github.com/Aripilli-Bhavana) | 1 | 0 | 0 | 1 |
 | [@deepanshu-prajapati01](https://github.com/deepanshu-prajapati01) | 1 | 0 | 0 | 1 |
-| [@Bala327](https://github.com/Bala327) | 1 | 0 | 0 | 1 |
-| [@Mehak-Parveen](https://github.com/Mehak-Parveen) | 1 | 0 | 0 | 1 |
 | [@JeevithaR3](https://github.com/JeevithaR3) | 0 | 1 | 0 | 1 |
 | [@DhawalShankar](https://github.com/DhawalShankar) | 0 | 1 | 0 | 1 |
 | [@RAJVEER42](https://github.com/RAJVEER42) | 0 | 1 | 0 | 1 |
@@ -66,6 +73,11 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@JaganParida](https://github.com/JaganParida) | 1 | 0 | 0 | 0 |
 | [@sabaaa01](https://github.com/sabaaa01) | 1 | 0 | 0 | 0 |
 | [@HemantSharma456](https://github.com/HemantSharma456) | 1 | 0 | 0 | 0 |
+| [@sameer-dixit](https://github.com/sameer-dixit) | 1 | 0 | 0 | 0 |
+| [@5uhani](https://github.com/5uhani) | 1 | 0 | 0 | 0 |
+| [@sumaya-786](https://github.com/sumaya-786) | 1 | 0 | 0 | 0 |
+| [@denshaw-09](https://github.com/denshaw-09) | 1 | 0 | 0 | 0 |
+| [@Shreya-1302](https://github.com/Shreya-1302) | 1 | 0 | 0 | 0 |
 | [@Suhani1234-5](https://github.com/Suhani1234-5) | 0 | 1 | 0 | 0 |
 | [@Adil642](https://github.com/Adil642) | 0 | 1 | 0 | 0 |
 | [@rawatjidelhiwale](https://github.com/rawatjidelhiwale) | 1 | 0 | 0 | 0 |
