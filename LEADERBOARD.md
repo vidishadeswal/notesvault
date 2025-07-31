@@ -77,6 +77,9 @@ This leaderboard tracks contributors who have completed issues labeled as `level
 | [@JaganParida](https://github.com/JaganParida) | 1 | 0 | 0 | 0 |
 | [@sabaaa01](https://github.com/sabaaa01) | 1 | 0 | 0 | 0 |
 | [@HemantSharma456](https://github.com/HemantSharma456) | 1 | 0 | 0 | 0 |
+| [@RaunakOP90](https://github.com/RaunakOP90) | 1 | 0 | 0 | 0 |
+| [@Anoushka120](https://github.com/Anoushka120) | 1 | 0 | 0 | 0 |
+| [@ys09123](https://github.com/ys09123) | 1 | 0 | 0 | 0 |
 | [@davekrisha](https://github.com/davekrisha) | 1 | 0 | 0 | 0 |
 | [@sameer-dixit](https://github.com/sameer-dixit) | 1 | 0 | 0 | 0 |
 | [@5uhani](https://github.com/5uhani) | 1 | 0 | 0 | 0 |
